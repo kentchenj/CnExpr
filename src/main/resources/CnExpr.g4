@@ -1,14 +1,3 @@
-/**
- *  日期型的比较： 日期型只能比较 < > >= <= ，不能比较 == 和 != ，因为日期型通常有时分秒，比较容易出问题
- *  函数：
- *  姓名 matches 函数一
- *  函数一： return "AAABBBCCCDDD";
- *  于是执行的时候可以转换成：
- *  def fun1() {return "AAABBBCCCDDD";}
- *  name matches fun1()
- *
- */
-
 grammar CnExpr;
 
 cnExpr
